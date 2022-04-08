@@ -20,6 +20,7 @@ class CreateToursTable extends Migration
             $table->string('duration', 20);
             $table->decimal('price', 7, 2);
             $table->string('name', 50);
+            $table->string('class', 20);
             $table->string('theme', 20)->nullable();
             $table->text('overview')->nullable();
             $table->timestamps();
